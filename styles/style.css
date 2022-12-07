@@ -1,7 +1,5 @@
 @import "./variables.css";
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Roboto:wght@500&display=swap');
-
-
 * {
     padding : 0;
     margin : 0;
@@ -15,6 +13,56 @@ a {
 
 li {
     list-style-type : none ;
-    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: var(--secondary-bg);
+}
+
+.logo{
+   margin: var(--margin-size-xl);
+   border-radius: 50%;
+}
+
+.title__header{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-size-xl);
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xl);
+    color: var(--secondary-color);
+}
+
+.nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-link{
+    font-family: var( --font-family-zag);
+    font-size: var(--font-size-l);
+    color: var(--additional-color);
+}
+
+.nav-link:hover{
+    color: aquamarine;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding-size-l);
+}
+
+.input{
+    background: inherit;
+    border-bottom:white;
 }
     

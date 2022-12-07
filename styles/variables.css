@@ -2,14 +2,14 @@
      /* *Color-text */
 
      --primary-color :black ;
-     --secondary-color: white;
-     --additional-color: rgb(5, 5, 75);
+     --secondary-color: rgb(53, 5, 120);
+     --additional-color: rgb(210, 210, 243);
      --spare-color: pink;
  
       /* *background */
  
       --primary-bg :#232323;
-      --secondary-bg: linear-gradient(rgb(200, 200, 240),rgb(106, 106, 193));
+      --secondary-bg: linear-gradient(rgb(125, 213, 229),rgb(106, 106, 193));
       --additional-bg: rgb(237, 226, 226);
       --spare-bg: rgb(241, 245, 247);
 
